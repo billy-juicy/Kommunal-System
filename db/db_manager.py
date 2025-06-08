@@ -35,3 +35,4 @@ class DatabaseManager:
         if self.connection:
             self.connection.close()
         print("Соединение с базой данных завершено.")
+
